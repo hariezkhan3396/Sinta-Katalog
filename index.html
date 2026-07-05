@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Katalog Sinta — Cari Jurnal per Topik</title>
+<meta name="description" content="Cari jurnal terakreditasi Sinta berdasarkan topik. Menampilkan nama jurnal, situs resmi, dan tingkat akreditasi Sinta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="drawer-rail" aria-hidden="true"></div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">Kartu Katalog Digital · Jurnal Ilmiah Indonesia</p>
+      <h1 class="hero-title">Katalog<br>Sinta</h1>
+      <p class="hero-desc">
+        Tulis satu topik, tarik satu laci. Katalog ini menyusun jurnal terakreditasi
+        Sinta lengkap dengan situs resminya dan cap tingkat akreditasi —
+        seperti membuka laci katalog perpustakaan, versi digital.
+      </p>
+
+      <form id="search-form" class="search-slip" autocomplete="off">
+        <label for="topic-input" class="slip-label">No. Permintaan Pencarian</label>
+        <div class="slip-row">
+          <input
+            id="topic-input"
+            type="text"
+            name="topic"
+            placeholder="mis. pendidikan IPA, hukum islam, geospasial, keperawatan…"
+            aria-label="Topik jurnal yang dicari"
+          >
+          <button type="submit">Cari Jurnal</button>
+        </div>
+      </form>
+
+      <div class="level-filters" id="level-filters" role="group" aria-label="Saring berdasarkan tingkat Sinta">
+        <span class="filter-caption">Saring cap akreditasi:</span>
+        <button type="button" class="chip" data-level="S1">S1</button>
+        <button type="button" class="chip" data-level="S2">S2</button>
+        <button type="button" class="chip" data-level="S3">S3</button>
+        <button type="button" class="chip" data-level="S4">S4</button>
+        <button type="button" class="chip" data-level="S5">S5</button>
+        <button type="button" class="chip" data-level="S6">S6</button>
+        <button type="button" class="chip chip-reset" id="chip-reset">Reset</button>
+      </div>
+
+      <p class="meta-line" id="meta-line">Memuat data katalog…</p>
+    </div>
+  </header>
+
+  <main class="catalog">
+    <div id="status-line" class="status-line" hidden></div>
+    <div id="results" class="results-grid"></div>
+    <div id="load-more-wrap" class="load-more-wrap" hidden>
+      <button id="load-more" type="button">Tarik Kartu Berikutnya</button>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      Data bersumber dari
+      <a href="https://sinta.kemdiktisaintek.go.id" target="_blank" rel="noopener">SINTA — Science and Technology Index</a>,
+      diarsipkan ulang secara berkala oleh alur kerja GitHub Actions di repositori ini.
+      Situs ini tidak berafiliasi resmi dengan Kemdiktisaintek.
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
