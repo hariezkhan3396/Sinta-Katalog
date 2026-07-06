@@ -2,6 +2,52 @@
   const RESULTS_PER_PAGE = 18;
   const LEVEL_ORDER = { S1: 1, S2: 2, S3: 3, S4: 4, S5: 5, S6: 6 };
 
+  // Sinta mencatat bidang subjek jurnal dalam bahasa Inggris (mis. "Agriculture",
+  // "Health", "Education"). Peta ini menerjemahkan kata kunci topik berbahasa
+  // Indonesia yang umum ke label subjek tersebut, supaya pencarian "pertanian"
+  // tetap menemukan jurnal berlabel "Agriculture" walau judulnya tidak
+  // mengandung kata "pertanian".
+  const SUBJECT_SYNONYMS = {
+    pertanian: ["agriculture", "agricultural", "agro", "farming"],
+    peternakan: ["agriculture", "animal", "veterinary"],
+    perikanan: ["agriculture", "fisheries", "marine"],
+    kehutanan: ["agriculture", "forestry"],
+    kesehatan: ["health", "medicine", "medical", "nursing", "pharmacy"],
+    kedokteran: ["health", "medicine", "medical"],
+    keperawatan: ["health", "nursing"],
+    farmasi: ["health", "pharmacy"],
+    pendidikan: ["education"],
+    pengajaran: ["education"],
+    ekonomi: ["economy", "economics", "business", "finance", "management"],
+    bisnis: ["economy", "business", "management"],
+    akuntansi: ["economy", "accounting"],
+    manajemen: ["economy", "management"],
+    teknik: ["engineering"],
+    rekayasa: ["engineering"],
+    komputer: ["engineering", "science", "computer", "informatics"],
+    informatika: ["engineering", "science", "computer", "informatics"],
+    hukum: ["social", "law"],
+    sosial: ["social"],
+    politik: ["social", "politics"],
+    komunikasi: ["social", "communication"],
+    psikologi: ["social", "health", "psychology"],
+    agama: ["religion"],
+    islam: ["religion"],
+    kristen: ["religion"],
+    filsafat: ["humanities", "religion", "philosophy"],
+    budaya: ["humanities", "art", "culture"],
+    bahasa: ["humanities", "education", "linguistics"],
+    sastra: ["humanities", "art", "literature"],
+    seni: ["art"],
+    sains: ["science"],
+    fisika: ["science", "physics"],
+    kimia: ["science", "chemistry"],
+    biologi: ["science", "biology"],
+    matematika: ["science", "mathematics"],
+    lingkungan: ["science", "engineering", "environment"],
+    geografi: ["science", "geography", "geospatial", "geomatics"],
+  };
+
   const state = {
     all: [],
     filtered: [],
@@ -49,6 +95,13 @@
     for (const tok of queryTokens) {
       if (title.includes(tok)) score += 10;
       if (subject.includes(tok)) score += 5;
+
+      const synonyms = SUBJECT_SYNONYMS[tok];
+      if (synonyms) {
+        for (const syn of synonyms) {
+          if (subject.includes(syn)) score += 4;
+        }
+      }
     }
     return score;
   }
