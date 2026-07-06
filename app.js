@@ -66,12 +66,31 @@
     loadMore: document.getElementById("load-more"),
     chips: Array.from(document.querySelectorAll(".chip[data-level]")),
     chipReset: document.getElementById("chip-reset"),
+
+    tabBtnSearch: document.getElementById("tab-btn-search"),
+    tabBtnPredictor: document.getElementById("tab-btn-predictor"),
+    panelSearch: document.getElementById("panel-search"),
+    panelPredictor: document.getElementById("panel-predictor"),
+    searchResultsWrap: document.getElementById("search-results-wrap"),
+    predictorResultsWrap: document.getElementById("predictor-results-wrap"),
+
+    predictorForm: document.getElementById("predictor-form"),
+    draftInput: document.getElementById("draft-input"),
+    predictorReport: document.getElementById("predictor-report"),
+    predictorStatus: document.getElementById("predictor-status"),
+    predictorRecs: document.getElementById("predictor-recs"),
   };
 
   function stopWord(word) {
     const stop = new Set([
-      "dan", "di", "ke", "dari", "yang", "untuk", "pada", "atau",
-      "the", "of", "and", "for", "in", "on", "a", "an",
+      "dan", "di", "ke", "dari", "yang", "untuk", "pada", "atau", "ini", "itu",
+      "dengan", "dalam", "adalah", "dapat", "akan", "juga", "oleh", "sebagai",
+      "tersebut", "secara", "telah", "sangat", "lebih", "para", "kami", "penulis",
+      "hasil", "penelitian", "artikel", "jurnal", "data", "menggunakan", "metode",
+      "abstrak", "kata", "kunci", "pendahuluan", "kesimpulan", "pembahasan",
+      "the", "of", "and", "for", "in", "on", "a", "an", "is", "are", "was", "were",
+      "this", "that", "with", "study", "research", "paper", "article", "using",
+      "method", "results", "abstract", "keywords", "introduction", "conclusion",
     ]);
     return stop.has(word);
   }
@@ -232,6 +251,181 @@
     runSearch(els.input.value);
   }
 
+  // ===== Tab switching =====
+  function switchTab(tab) {
+    const isSearch = tab === "search";
+    els.tabBtnSearch.classList.toggle("active", isSearch);
+    els.tabBtnPredictor.classList.toggle("active", !isSearch);
+    els.tabBtnSearch.setAttribute("aria-selected", String(isSearch));
+    els.tabBtnPredictor.setAttribute("aria-selected", String(!isSearch));
+    els.panelSearch.hidden = !isSearch;
+    els.panelPredictor.hidden = isSearch;
+    els.searchResultsWrap.hidden = !isSearch;
+    els.predictorResultsWrap.hidden = isSearch;
+  }
+
+  // ===== Draft analysis (heuristik, bukan penilaian resmi) =====
+  // Peta label level -> kode Sinta yang akan dipakai untuk mencari rekomendasi jurnal.
+  const LEVEL_TO_CODES = {
+    "SINTA 1": ["S1"],
+    "SINTA 2": ["S2"],
+    "SINTA 3-4": ["S3", "S4"],
+    "SINTA 5-6": ["S5", "S6"],
+  };
+
+  function analyzeDraftText(text) {
+    const lowerText = text.toLowerCase();
+    const words = text.trim().split(/\s+/).length;
+
+    const sections = {
+      intro: /introduction|pendahuluan/.test(lowerText),
+      method: /method|metode/.test(lowerText),
+      results: /result|hasil/.test(lowerText),
+      discussion: /discussion|pembahasan/.test(lowerText),
+      conclusion: /conclusion|kesimpulan/.test(lowerText),
+    };
+    const sectionCount = Object.values(sections).filter(Boolean).length;
+
+    const isEnglish =
+      /abstract|research|background/.test(lowerText) &&
+      !/abstrak|penelitian|latar belakang/.test(lowerText);
+
+    const citationPattern = /\[[\d, \-]+\]|\(\b(?:[A-Z][a-z]+(?:\s+et\s+al\.)?|[\w\s,]+)\s*,\s*\d{4}\)|\(\d{4}\)/g;
+    const allMatches = text.match(citationPattern) || [];
+    const refsCount = new Set(allMatches).size;
+
+    let score = 0;
+    if (isEnglish) score += 25;
+    if (words > 3000) score += 20;
+    else if (words > 1500) score += 10;
+
+    if (refsCount > 20) score += 30;
+    else if (refsCount > 10) score += 15;
+    else score += 5;
+
+    if (sectionCount >= 4) score += 25;
+
+    let level = "SINTA 5-6";
+    let color = "#64748b";
+    let advice = "Draf artikel memenuhi kriteria dasar. Fokus pada penguatan gap penelitian dan perbanyak referensi jurnal internasional terbaru.";
+
+    if (score >= 80) {
+      level = "SINTA 1";
+      color = "#9B3B34";
+      advice = "Struktur dan bobot artikel sudah mendekati standar bereputasi tinggi. Berpotensi untuk jurnal Sinta 1 / terindeks Scopus.";
+    } else if (score >= 65) {
+      level = "SINTA 2";
+      color = "#B8862F";
+      advice = "Sudah cukup kuat. Perdalam bagian pembahasan (discussion) untuk memperkuat kontribusi substansi.";
+    } else if (score >= 50) {
+      level = "SINTA 3-4";
+      color = "#3E5C63";
+      advice = "Kualitas draf setara standar nasional terakreditasi menengah. Perkuat kemutakhiran referensi.";
+    }
+
+    return {
+      score, level, color, advice, words, sectionCount, refsCount,
+      acceptedLevels: LEVEL_TO_CODES[level] || ["S5", "S6"],
+    };
+  }
+
+  function extractKeywords(text, limit = 6) {
+    const freq = new Map();
+    for (const tok of tokenize(text)) {
+      if (tok.length < 4) continue;
+      if (/^\d+$/.test(tok)) continue;
+      freq.set(tok, (freq.get(tok) || 0) + 1);
+    }
+    return Array.from(freq.entries())
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, limit)
+      .map(([word]) => word);
+  }
+
+  function renderReport(report, keywords) {
+    els.predictorReport.innerHTML = `
+      <div class="report-level-wrap">
+        <p class="report-level-caption">Estimasi Tingkat</p>
+        <h2 class="report-level" style="color:${report.color}">${escapeHtml(report.level)}</h2>
+        <span class="report-score" style="background:${report.color}">Skor ${report.score}</span>
+      </div>
+      <div>
+        <div class="report-stats">
+          <div class="report-stat">
+            <p class="report-stat-label">Jumlah Kata</p>
+            <p class="report-stat-value">${report.words.toLocaleString("id-ID")}</p>
+          </div>
+          <div class="report-stat">
+            <p class="report-stat-label">Struktur IMRaD</p>
+            <p class="report-stat-value">${report.sectionCount}/5 bagian</p>
+          </div>
+          <div class="report-stat">
+            <p class="report-stat-label">Sitasi Unik</p>
+            <p class="report-stat-value">${report.refsCount}</p>
+          </div>
+        </div>
+        <p class="report-advice">${escapeHtml(report.advice)}</p>
+        ${keywords.length ? `<p class="report-keywords">Topik terdeteksi: ${keywords.map((k) => `<span>${escapeHtml(k)}</span>`).join("")}</p>` : ""}
+      </div>
+    `;
+  }
+
+  function recommendJournals(keywords, acceptedLevels) {
+    const query = keywords.join(" ");
+    const tokens = keywords;
+
+    let pool = state.all.filter((j) => acceptedLevels.includes(j.sinta_level));
+    let fallbackUsed = false;
+    if (pool.length === 0) {
+      pool = state.all;
+      fallbackUsed = true;
+    }
+
+    const scored = pool
+      .map((j) => ({ j, score: scoreJournal(j, tokens, query) }))
+      .sort((a, b) => b.score - a.score || levelRank(a.j.sinta_level) - levelRank(b.j.sinta_level));
+
+    const withMatch = scored.filter((x) => x.score > 0);
+    const finalList = (withMatch.length > 0 ? withMatch : scored).slice(0, 12).map((x) => x.j);
+
+    return { list: finalList, fallbackUsed, hadKeywordMatch: withMatch.length > 0 };
+  }
+
+  function handleAnalyzeDraft(e) {
+    e.preventDefault();
+    const text = els.draftInput.value;
+    if (text.trim().length < 300) {
+      alert("Naskah terlalu pendek untuk dianalisis. Tempelkan draf yang lebih lengkap (minimal beberapa paragraf).");
+      return;
+    }
+
+    const report = analyzeDraftText(text);
+    const keywords = extractKeywords(text);
+    renderReport(report, keywords);
+    els.predictorResultsWrap.hidden = false;
+
+    const { list, fallbackUsed, hadKeywordMatch } = recommendJournals(keywords, report.acceptedLevels);
+
+    const levelNote = report.acceptedLevels.join("/");
+    if (fallbackUsed) {
+      els.predictorStatus.textContent = `Belum ada jurnal berdata ${levelNote} di katalog saat ini (mungkin data belum lengkap) — menampilkan alternatif terdekat dari seluruh katalog.`;
+    } else if (!hadKeywordMatch) {
+      els.predictorStatus.textContent = `Menampilkan jurnal ber-akreditasi ${levelNote}; topik spesifik draf tidak terlalu cocok dengan judul/bidang subjek yang tercatat, jadi urutan di bawah ini belum tentu relevan — cek juga tab "Cari Jurnal" secara manual.`;
+    } else {
+      els.predictorStatus.textContent = `Rekomendasi jurnal tujuan (akreditasi ${levelNote}), diurutkan berdasarkan kecocokan topik terdeteksi:`;
+    }
+
+    els.predictorRecs.innerHTML = "";
+    if (list.length === 0) {
+      const empty = document.createElement("div");
+      empty.className = "empty-state";
+      empty.textContent = "Katalog jurnal masih kosong. Jalankan pembaruan data dulu di tab Cari Jurnal.";
+      els.predictorRecs.appendChild(empty);
+    } else {
+      list.forEach((journal, i) => els.predictorRecs.appendChild(cardTemplate(journal, i)));
+    }
+  }
+
   async function init() {
     els.form.addEventListener("submit", (e) => {
       e.preventDefault();
@@ -252,6 +446,11 @@
     });
 
     els.loadMore.addEventListener("click", appendResults);
+
+    els.tabBtnSearch.addEventListener("click", () => switchTab("search"));
+    els.tabBtnPredictor.addEventListener("click", () => switchTab("predictor"));
+    els.predictorForm.addEventListener("submit", handleAnalyzeDraft);
+
 
     try {
       const [journalsRes, metaRes] = await Promise.all([
