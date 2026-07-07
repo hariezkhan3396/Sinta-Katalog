@@ -107,22 +107,52 @@
   function scoreJournal(journal, queryTokens, rawQuery) {
     const title = (journal.title || "").toLowerCase();
     const subject = (journal.subject_area || "").toLowerCase();
-    let score = 0;
+    const description = (journal.description || "").toLowerCase();
 
-    if (rawQuery && title.includes(rawQuery)) score += 30;
+    let titleScore = 0;
+    let contextScore = 0; // subjek/bidang/deskripsi — sinyal sekunder, bobot kecil
 
+    // Cocok utuh satu frasa di judul = sinyal terkuat.
+    if (rawQuery && rawQuery.length > 2 && title.includes(rawQuery)) {
+      titleScore += 60;
+    }
+
+    let tokensMatchedInTitle = 0;
     for (const tok of queryTokens) {
-      if (title.includes(tok)) score += 10;
-      if (subject.includes(tok)) score += 5;
+      // Kata utuh (word boundary), bukan potongan huruf di tengah kata lain,
+      // supaya "seni" tidak nyangkut di "kesenian" secara kebetulan longgar,
+      // dst — mencocokkan kata sebagai satu unit penuh.
+      const wordRe = new RegExp(`(^|[^\\p{L}\\p{N}])${escapeRegex(tok)}([^\\p{L}\\p{N}]|$)`, "u");
+      if (wordRe.test(title)) {
+        titleScore += 22;
+        tokensMatchedInTitle += 1;
+      }
+      if (description && wordRe.test(description)) {
+        contextScore += 6;
+      }
+      if (subject.includes(tok)) contextScore += 3;
 
       const synonyms = SUBJECT_SYNONYMS[tok];
       if (synonyms) {
         for (const syn of synonyms) {
-          if (subject.includes(syn)) score += 4;
+          if (subject.includes(syn)) contextScore += 1.5;
         }
       }
     }
-    return score;
+
+    // Bonus kalau SEMUA kata kunci ketemu di judul (bukan cuma sebagian).
+    if (queryTokens.length > 1 && tokensMatchedInTitle === queryTokens.length) {
+      titleScore += 25;
+    }
+
+    // Judul adalah sinyal utama; bidang subjek/deskripsi cuma penentu urutan
+    // kalau skor judul sama, bukan pendorong utama supaya jurnal yang cuma
+    // "bidangnya mirip" tidak menyalip jurnal yang judulnya benar-benar cocok.
+    return titleScore * 10 + contextScore;
+  }
+
+  function escapeRegex(str) {
+    return str.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   }
 
   function levelRank(level) {
