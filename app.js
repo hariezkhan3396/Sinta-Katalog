@@ -416,22 +416,36 @@
   function recommendJournals(keywords, acceptedLevels) {
     const query = keywords.join(" ");
     const tokens = keywords;
+    const LEVEL_BONUS = 50; // penambah kecil untuk level yang cocok prediksi, bukan filter keras
 
-    let pool = state.all.filter((j) => acceptedLevels.includes(j.sinta_level));
-    let fallbackUsed = false;
-    if (pool.length === 0) {
-      pool = state.all;
-      fallbackUsed = true;
+    const scored = state.all.map((j) => {
+      const topicScore = scoreJournal(j, tokens, query);
+      const levelBonus = acceptedLevels.includes(j.sinta_level) ? LEVEL_BONUS : 0;
+      return { j, topicScore, combined: topicScore + levelBonus };
+    });
+
+    // Prioritas utama: jurnal yang topiknya benar-benar cocok (topicScore > 0),
+    // di ANTARA level manapun — supaya jurnal relevan tidak tersingkir hanya
+    // karena levelnya beda dari prediksi. Level cocok cuma jadi pengurut kedua.
+    const topical = scored
+      .filter((x) => x.topicScore > 0)
+      .sort((a, b) => b.combined - a.combined || levelRank(a.j.sinta_level) - levelRank(b.j.sinta_level));
+
+    if (topical.length > 0) {
+      return { list: topical.slice(0, 12).map((x) => x.j), fallbackUsed: false, hadKeywordMatch: true };
     }
 
-    const scored = pool
-      .map((j) => ({ j, score: scoreJournal(j, tokens, query) }))
-      .sort((a, b) => b.score - a.score || levelRank(a.j.sinta_level) - levelRank(b.j.sinta_level));
+    // Tidak ada satupun jurnal yang topiknya cocok (data mungkin belum lengkap):
+    // fallback ke jurnal ber-level sesuai prediksi, diurutkan berdasar level saja.
+    const levelOnly = state.all
+      .filter((j) => acceptedLevels.includes(j.sinta_level))
+      .sort((a, b) => levelRank(a.sinta_level) - levelRank(b.sinta_level));
 
-    const withMatch = scored.filter((x) => x.score > 0);
-    const finalList = (withMatch.length > 0 ? withMatch : scored).slice(0, 12).map((x) => x.j);
+    if (levelOnly.length > 0) {
+      return { list: levelOnly.slice(0, 12), fallbackUsed: true, hadKeywordMatch: false };
+    }
 
-    return { list: finalList, fallbackUsed, hadKeywordMatch: withMatch.length > 0 };
+    return { list: [], fallbackUsed: true, hadKeywordMatch: false };
   }
 
   function handleAnalyzeDraft(e) {
@@ -450,12 +464,12 @@
     const { list, fallbackUsed, hadKeywordMatch } = recommendJournals(keywords, report.acceptedLevels);
 
     const levelNote = report.acceptedLevels.join("/");
-    if (fallbackUsed) {
-      els.predictorStatus.textContent = `Belum ada jurnal berdata ${levelNote} di katalog saat ini (mungkin data belum lengkap) — menampilkan alternatif terdekat dari seluruh katalog.`;
+    if (!hadKeywordMatch && fallbackUsed) {
+      els.predictorStatus.textContent = `Belum ada jurnal yang topiknya cocok dengan draf ini di katalog saat ini (kemungkinan data belum lengkap) — menampilkan jurnal ber-akreditasi ${levelNote} sebagai alternatif terdekat, diurutkan berdasarkan level saja (bukan topik).`;
     } else if (!hadKeywordMatch) {
-      els.predictorStatus.textContent = `Menampilkan jurnal ber-akreditasi ${levelNote}; topik spesifik draf tidak terlalu cocok dengan judul/bidang subjek yang tercatat, jadi urutan di bawah ini belum tentu relevan — cek juga tab "Cari Jurnal" secara manual.`;
+      els.predictorStatus.textContent = `Tidak ditemukan jurnal yang cocok topik maupun levelnya di katalog saat ini. Coba jalankan pembaruan data (full-scrape) atau cek tab "Cari Jurnal" secara manual.`;
     } else {
-      els.predictorStatus.textContent = `Rekomendasi jurnal tujuan (akreditasi ${levelNote}), diurutkan berdasarkan kecocokan topik terdeteksi:`;
+      els.predictorStatus.textContent = `Rekomendasi jurnal tujuan, diurutkan berdasarkan kecocokan topik terdeteksi — jurnal ber-akreditasi ${levelNote} (sesuai estimasi) diprioritaskan bila topiknya sama-sama cocok:`;
     }
 
     els.predictorRecs.innerHTML = "";
