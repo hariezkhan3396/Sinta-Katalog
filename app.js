@@ -88,9 +88,22 @@
       "tersebut", "secara", "telah", "sangat", "lebih", "para", "kami", "penulis",
       "hasil", "penelitian", "artikel", "jurnal", "data", "menggunakan", "metode",
       "abstrak", "kata", "kunci", "pendahuluan", "kesimpulan", "pembahasan",
+      // kata metodologi/akademik generik — bukan topik, sering muncul di semua
+      // bidang sekaligus kebetulan jadi bagian nama banyak jurnal yang tidak
+      // berhubungan (mis. "Analisis: Jurnal Studi Keislaman").
+      "analisis", "analisa", "kajian", "studi", "tinjauan", "identifikasi",
+      "evaluasi", "implementasi", "penerapan", "pengembangan", "perbandingan",
+      "pengaruh", "hubungan", "korelasi", "dampak", "faktor", "peningkatan",
+      "pemanfaatan", "berbasis", "berdasarkan", "terhadap", "deskriptif",
+      "kuantitatif", "kualitatif", "sampel", "populasi", "variabel",
+      "signifikan", "pengujian", "pengukuran", "karakteristik", "nilai",
+      "tingkat", "sistem", "model", "proses", "aspek", "upaya", "strategi",
+      "dilakukan", "melakukan", "menunjukkan", "menghasilkan", "memiliki",
+      "terdapat", "diperoleh", "didapatkan", "berupa", "digunakan", "diketahui",
       "the", "of", "and", "for", "in", "on", "a", "an", "is", "are", "was", "were",
       "this", "that", "with", "study", "research", "paper", "article", "using",
       "method", "results", "abstract", "keywords", "introduction", "conclusion",
+      "analysis", "based", "effect", "influence", "level", "factor",
     ]);
     return stop.has(word);
   }
