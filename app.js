@@ -9,6 +9,15 @@
   // mengandung kata "pertanian".
   const SUBJECT_SYNONYMS = {
     pertanian: ["agriculture", "agricultural", "agro", "farming"],
+    pangan: ["agriculture", "food"],
+    agribisnis: ["agriculture", "economy", "business", "agribusiness"],
+    agroindustri: ["agriculture", "engineering", "industry"],
+    komoditas: ["agriculture", "economy"],
+    tanaman: ["agriculture", "plant"],
+    perkebunan: ["agriculture", "plantation"],
+    budidaya: ["agriculture", "cultivation"],
+    gizi: ["health", "nutrition", "food"],
+    pascapanen: ["agriculture", "food"],
     peternakan: ["agriculture", "animal", "veterinary"],
     perikanan: ["agriculture", "fisheries", "marine"],
     kehutanan: ["agriculture", "forestry"],
@@ -372,17 +381,54 @@
     };
   }
 
-  function extractKeywords(text, limit = 6) {
+  // Cari baris "Kata kunci : ..." atau "Keywords : ..." — ini kata kunci resmi
+  // yang ditulis penulisnya sendiri, jauh lebih akurat menggambarkan topik
+  // dibanding kata yang cuma sering diulang di badan teks.
+  function extractExplicitKeywordPhrases(text) {
+    const lines = text.split(/\r?\n/);
+    const phrases = [];
+    for (const line of lines) {
+      const m = line.match(/^\s*(?:kata\s*kunci|keywords?)\s*[:\-]\s*(.+)$/i);
+      if (m) {
+        phrases.push(...m[1].split(/[,;]/).map((s) => s.trim()).filter(Boolean));
+      }
+    }
+    return phrases;
+  }
+
+  function extractKeywords(text, limit = 8) {
+    const seen = new Set();
+    const ordered = [];
+
+    // 1) Prioritaskan kata kunci resmi dari penulis, kalau ada.
+    for (const phrase of extractExplicitKeywordPhrases(text)) {
+      for (const tok of tokenize(phrase)) {
+        if (/^\d+$/.test(tok)) continue;
+        if (!seen.has(tok)) {
+          seen.add(tok);
+          ordered.push(tok);
+        }
+      }
+    }
+
+    // 2) Lengkapi sisa slot dengan kata yang paling sering muncul di badan teks
+    //    (kata pendek & angka tetap disaring supaya tidak jadi noise).
     const freq = new Map();
     for (const tok of tokenize(text)) {
       if (tok.length < 4) continue;
       if (/^\d+$/.test(tok)) continue;
       freq.set(tok, (freq.get(tok) || 0) + 1);
     }
-    return Array.from(freq.entries())
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, limit)
-      .map(([word]) => word);
+    const byFreq = Array.from(freq.entries()).sort((a, b) => b[1] - a[1]);
+    for (const [tok] of byFreq) {
+      if (ordered.length >= limit) break;
+      if (!seen.has(tok)) {
+        seen.add(tok);
+        ordered.push(tok);
+      }
+    }
+
+    return ordered.slice(0, limit);
   }
 
   function renderReport(report, keywords) {
