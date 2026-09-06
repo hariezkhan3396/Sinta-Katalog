@@ -972,6 +972,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "13683",
+    "title": "Journal of Coaching and Sports Science",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13683",
+    "website": "https://journal.foundae.com/index.php/jcss",
+    "issn_p": "29631459",
+    "issn_e": "29631483",
+    "subject_area": null,
+    "sinta_level": "S1",
+    "scopus_indexed": true,
+    "garuda_indexed": true
+  },
+  {
     "id": "5676",
     "title": "Automotive Experiences",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5676",
@@ -1458,18 +1470,6 @@
     "website": "http://agritech.unhas.ac.id/ojs/index.php/canrea/index",
     "issn_p": null,
     "issn_e": "26219468",
-    "subject_area": null,
-    "sinta_level": "S1",
-    "scopus_indexed": true,
-    "garuda_indexed": true
-  },
-  {
-    "id": "13683",
-    "title": "Journal of Coaching and Sports Science",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13683",
-    "website": "https://journal.foundae.com/index.php/jcss",
-    "issn_p": "29631459",
-    "issn_e": "29631483",
     "subject_area": null,
     "sinta_level": "S1",
     "scopus_indexed": true,
@@ -4080,6 +4080,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "6470",
+    "title": "Islam Transformatif : Journal of Islamic Studies",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/6470",
+    "website": "https://ejournal.uinbukittinggi.ac.id/index.php/islamt",
+    "issn_p": "2599218X",
+    "issn_e": "25992171",
+    "subject_area": null,
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "10476",
     "title": "Mudir : Jurnal Manajemen Pendidikan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/10476",
@@ -4207,6 +4219,18 @@
     "issn_p": null,
     "issn_e": "27221520",
     "subject_area": "Education",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "717",
+    "title": "Journal of Economics, Business, & Accountancy Ventura",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/717",
+    "website": "https://journal.perbanas.ac.id/index.php/jebav",
+    "issn_p": "20873735",
+    "issn_e": "2088785X",
+    "subject_area": "Economy",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -4752,6 +4776,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "4387",
+    "title": "The Indonesian Accounting Review",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4387",
+    "website": "https://journal.perbanas.ac.id/index.php/tiar",
+    "issn_p": "20863802",
+    "issn_e": "2302822X",
+    "subject_area": null,
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "4107",
     "title": "Jurnal Pharmascience",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4107",
@@ -4770,7 +4806,7 @@
     "website": "https://journal.uii.ac.id/AJIM",
     "issn_p": "27460037",
     "issn_e": "27222330",
-    "subject_area": null,
+    "subject_area": "Science, Education, Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -5071,30 +5107,6 @@
     "issn_p": "02151790",
     "issn_e": "2540945X",
     "subject_area": "Science",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "717",
-    "title": "Journal of Economics, Business, & Accountancy Ventura",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/717",
-    "website": "https://journal.perbanas.ac.id/index.php/jebav",
-    "issn_p": "20873735",
-    "issn_e": "2088785X",
-    "subject_area": "Economy",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "6470",
-    "title": "ISLAM TRANSFORMATIF : Journal of Islamic Studies",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/6470",
-    "website": "https://ejournal.iainbukittinggi.ac.id/index.php/islamt",
-    "issn_p": "2599218X",
-    "issn_e": "25992171",
-    "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -6771,7 +6783,7 @@
     "id": "4425",
     "title": "JEMA: Jurnal Ilmiah Bidang Akuntansi dan Manajemen",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4425",
-    "website": "http://riset.unisma.ac.id/index.php/jema/",
+    "website": "http://riset.unisma.ac.id/index.php/jema",
     "issn_p": "16937864",
     "issn_e": "25974017",
     "subject_area": "Economy",
@@ -7111,18 +7123,6 @@
     "issn_p": "25034219",
     "issn_e": "25034227",
     "subject_area": "Religion",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "4387",
-    "title": "The Indonesian Accounting Review",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4387",
-    "website": "https://journal.perbanas.ac.id/index.php/tiar",
-    "issn_p": "20863802",
-    "issn_e": "2302822X",
-    "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -8082,7 +8082,7 @@
     "website": "https://journal3.um.ac.id/index.php/fip",
     "issn_p": "0",
     "issn_e": "27973174",
-    "subject_area": null,
+    "subject_area": "Education",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -9355,6 +9355,18 @@
     "issn_p": "28079329",
     "issn_e": "28079167",
     "subject_area": null,
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "522",
+    "title": "Al Hurriyah : Jurnal Hukum Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/522",
+    "website": "https://ejournal.uinbukittinggi.ac.id/index.php/alhurriyah",
+    "issn_p": "25493809",
+    "issn_e": "25494198",
+    "subject_area": "Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -11368,7 +11380,7 @@
     "title": "Journal of Smart Agriculture and Environmental Technology",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18029",
     "website": "https://josaet.com/index.php/smartagrienvitech",
-    "issn_p": "0",
+    "issn_p": null,
     "issn_e": "30218802",
     "subject_area": "Health, Science, Agriculture, Social",
     "sinta_level": "S2",
@@ -13848,6 +13860,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "15393",
+    "title": "International Journal of Applied Mathematics, Sciences, and Technology for National Defense",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15393",
+    "website": "https://journal.foundae.com/index.php/JAS-ND",
+    "issn_p": "29860776",
+    "issn_e": "29859352",
+    "subject_area": null,
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "4490",
     "title": "AGROMIX",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4490",
@@ -14340,18 +14364,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "15433",
-    "title": "Jurnal Pustaka Indonesia",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15433",
-    "website": "https://siducat.org/index.php/jpi",
-    "issn_p": "0",
-    "issn_e": "27978915",
-    "subject_area": "Education",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "939",
     "title": "Animal Production : Indonesian Journal of Animal Production",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/939",
@@ -14748,6 +14760,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "15433",
+    "title": "Jurnal Pustaka Indonesia",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15433",
+    "website": "https://siducat.org/index.php/jpi",
+    "issn_p": "0",
+    "issn_e": "27978915",
+    "subject_area": "Education",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "10362",
     "title": "KAMASEAN: Jurnal Teologi Kristen",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/10362",
@@ -14887,18 +14911,6 @@
     "issn_p": "27761711",
     "issn_e": "27764508",
     "subject_area": null,
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "522",
-    "title": "Al Hurriyah : Jurnal Hukum Islam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/522",
-    "website": "https://ejournal.uinbukittinggi.ac.id/alhurriyah",
-    "issn_p": "25493809",
-    "issn_e": "25494198",
-    "subject_area": "Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -15271,6 +15283,18 @@
     "issn_p": "19794908",
     "issn_e": "25983873",
     "subject_area": "Education",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "13673",
+    "title": "Smart Society: Community Service and Empowerment Journal",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13673",
+    "website": "https://journal.foundae.com/index.php/smartsoc",
+    "issn_p": "28075722",
+    "issn_e": "28075757",
+    "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -17352,18 +17376,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "2713",
-    "title": "JURNAL METEOROLOGI DAN GEOFISIKA",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2713",
-    "website": "https://jmg.bmkg.go.id/jmg",
-    "issn_p": "14113082",
-    "issn_e": "25275372",
-    "subject_area": "Science",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2707",
     "title": "Urania Jurnal Ilmiah Daur Bahan Bakar Nuklir",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2707",
@@ -17374,6 +17386,18 @@
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": false
+  },
+  {
+    "id": "2713",
+    "title": "JURNAL METEOROLOGI DAN GEOFISIKA",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2713",
+    "website": "https://jmg.bmkg.go.id/jmg",
+    "issn_p": "14113082",
+    "issn_e": "25275372",
+    "subject_area": "Science",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
   },
   {
     "id": "2734",
@@ -17412,6 +17436,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "2770",
+    "title": "Jurnal Riset Akuakultur",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2770",
+    "website": "http://ejournal-balitbang.kkp.go.id/index.php/jra/index",
+    "issn_p": "19076754",
+    "issn_e": "25026534",
+    "subject_area": "Science, Agriculture",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "2753",
     "title": "Jurnal Rechts Vinding : Media Pembinaan Hukum Nasional",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2753",
@@ -17424,13 +17460,13 @@
     "garuda_indexed": true
   },
   {
-    "id": "2770",
-    "title": "Jurnal Riset Akuakultur",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2770",
-    "website": "http://ejournal-balitbang.kkp.go.id/index.php/jra/index",
-    "issn_p": "19076754",
-    "issn_e": "25026534",
-    "subject_area": "Science, Agriculture",
+    "id": "2788",
+    "title": "Media Gizi Mikro Indonesia",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2788",
+    "website": "http://ejournal.litbang.depkes.go.id/index.php/mgmi",
+    "issn_p": null,
+    "issn_e": "23548746",
+    "subject_area": "Health",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -17448,12 +17484,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "2788",
-    "title": "Media Gizi Mikro Indonesia",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2788",
-    "website": "http://ejournal.litbang.depkes.go.id/index.php/mgmi",
-    "issn_p": null,
-    "issn_e": "23548746",
+    "id": "2780",
+    "title": "Gizi Indonesia",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2780",
+    "website": "https://ejournal.persagi.org/index.php/Gizi_Indon/",
+    "issn_p": "04360265",
+    "issn_e": "25285874",
+    "subject_area": "Health",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2783",
+    "title": "HSJI (Health Science Journal of Indonesia)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2783",
+    "website": "https://ejournal2.litbang.kemkes.go.id/index.php/hsji",
+    "issn_p": "20877021",
+    "issn_e": "23383437",
     "subject_area": "Health",
     "sinta_level": "S2",
     "scopus_indexed": false,
@@ -17484,25 +17532,13 @@
     "garuda_indexed": true
   },
   {
-    "id": "2780",
-    "title": "Gizi Indonesia",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2780",
-    "website": "https://ejournal.persagi.org/index.php/Gizi_Indon/",
-    "issn_p": "04360265",
-    "issn_e": "25285874",
-    "subject_area": "Health",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "2783",
-    "title": "HSJI (Health Science Journal of Indonesia)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2783",
-    "website": "https://ejournal2.litbang.kemkes.go.id/index.php/hsji",
-    "issn_p": "20877021",
-    "issn_e": "23383437",
-    "subject_area": "Health",
+    "id": "2804",
+    "title": "Jurnal IPTEK-KOM (Jurnal Ilmu Pengetahuan dan Teknologi Komunikasi)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2804",
+    "website": "https://jurnal.kominfo.go.id/index.php/iptekkom",
+    "issn_p": "25274902",
+    "issn_e": "25274902",
+    "subject_area": "Science, Education, Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -17515,18 +17551,6 @@
     "issn_p": "18580882",
     "issn_e": "23389982",
     "subject_area": "Health",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "2804",
-    "title": "Jurnal IPTEK-KOM (Jurnal Ilmu Pengetahuan dan Teknologi Komunikasi)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2804",
-    "website": "https://jurnal.kominfo.go.id/index.php/iptekkom",
-    "issn_p": "25274902",
-    "issn_e": "25274902",
-    "subject_area": "Science, Education, Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -17640,18 +17664,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "2858",
-    "title": "Jurnal Transportasi Multimoda",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2858",
-    "website": "https://ojs.balitbanghub.dephub.go.id/index.php/jurnalmtm",
-    "issn_p": "16931742",
-    "issn_e": "25798529",
-    "subject_area": null,
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2870",
     "title": "Jurnal Riset Industri",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2870",
@@ -17671,6 +17683,18 @@
     "issn_p": "1978689",
     "issn_e": "25415905",
     "subject_area": "Science, Engineering",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2858",
+    "title": "Jurnal Transportasi Multimoda",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2858",
+    "website": "https://ojs.balitbanghub.dephub.go.id/index.php/jurnalmtm",
+    "issn_p": "16931742",
+    "issn_e": "25798529",
+    "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -17844,24 +17868,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "2933",
-    "title": "International Journal of Remote Sensing and Earth Sciences (IJReSES)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2933",
-    "website": "http://jurnal.lapan.go.id/index.php/ijreses",
-    "issn_p": "02166739",
-    "issn_e": "2549516X",
-    "subject_area": "Science",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2927",
     "title": "Buletin Penelitian Tanaman Rempah dan Obat",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2927",
     "website": "http://ejurnal.litbang.pertanian.go.id/index.php/bultro",
     "issn_p": "02150824",
     "issn_e": "25274414",
+    "subject_area": "Science",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2933",
+    "title": "International Journal of Remote Sensing and Earth Sciences (IJReSES)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2933",
+    "website": "http://jurnal.lapan.go.id/index.php/ijreses",
+    "issn_p": "02166739",
+    "issn_e": "2549516X",
     "subject_area": "Science",
     "sinta_level": "S2",
     "scopus_indexed": false,
@@ -18132,30 +18156,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3433",
-    "title": "Jurnal Irigasi",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3433",
-    "website": "http://jurnalirigasi_pusair.pu.go.id/index.php/jurnal_irigasi",
-    "issn_p": "19075545",
-    "issn_e": "26154277",
-    "subject_area": "Engineering",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "3435",
-    "title": "Jurnal Penelitian Hutan dan Konservasi Alam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3435",
-    "website": "http://ejournal.forda-mof.org/ejournal-litbang/index.php/JPHKA",
-    "issn_p": "25409689",
-    "issn_e": "25409689",
-    "subject_area": "Agriculture",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3436",
     "title": "Jurnal Penelitian Kelapa Sawit",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3436",
@@ -18187,6 +18187,30 @@
     "issn_p": "19079605",
     "issn_e": "19079605",
     "subject_area": null,
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3433",
+    "title": "Jurnal Irigasi",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3433",
+    "website": "http://jurnalirigasi_pusair.pu.go.id/index.php/jurnal_irigasi",
+    "issn_p": "19075545",
+    "issn_e": "26154277",
+    "subject_area": "Engineering",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3435",
+    "title": "Jurnal Penelitian Hutan dan Konservasi Alam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3435",
+    "website": "http://ejournal.forda-mof.org/ejournal-litbang/index.php/JPHKA",
+    "issn_p": "25409689",
+    "issn_e": "25409689",
+    "subject_area": "Agriculture",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -18228,6 +18252,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "3449",
+    "title": "Jurnal Teknologi Bahan dan Barang Teknik",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3449",
+    "website": "https://ejournal.b4t.go.id/index.php/JTBBT",
+    "issn_p": "20894767",
+    "issn_e": "27159116",
+    "subject_area": "Science, Engineering",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "3451",
     "title": "Majalah Polimer Indonesia",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3451",
@@ -18247,18 +18283,6 @@
     "issn_p": "14128004",
     "issn_e": "25408240",
     "subject_area": "Education",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "3449",
-    "title": "Jurnal Teknologi Bahan dan Barang Teknik",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3449",
-    "website": "https://ejournal.b4t.go.id/index.php/JTBBT",
-    "issn_p": "20894767",
-    "issn_e": "27159116",
-    "subject_area": "Science, Engineering",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -18396,18 +18420,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3557",
-    "title": "Global: Jurnal Politik Internasional",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3557",
-    "website": "https://scholarhub.ui.ac.id/global/",
-    "issn_p": "14115492",
-    "issn_e": "25798251",
-    "subject_area": "Social",
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3554",
     "title": "IJEE (Indonesian Journal of English Education)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3554",
@@ -18420,13 +18432,13 @@
     "garuda_indexed": true
   },
   {
-    "id": "3570",
-    "title": "Englisia : Journal of Language, Education, and Humanities",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3570",
-    "website": "https://publication.ar-raniry.ac.id/index.php/englisia/index",
-    "issn_p": "23392576",
-    "issn_e": "25276484",
-    "subject_area": "Education",
+    "id": "3557",
+    "title": "Global: Jurnal Politik Internasional",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3557",
+    "website": "https://scholarhub.ui.ac.id/global/",
+    "issn_p": "14115492",
+    "issn_e": "25798251",
+    "subject_area": "Social",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -18444,12 +18456,12 @@
     "garuda_indexed": true
   },
   {
-    "id": "3591",
-    "title": "Edukasi: Jurnal Pendidikan dan Pengajaran",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3591",
-    "website": "http://jurnal.radenfatah.ac.id/index.php/edukasi/issue/archive",
-    "issn_p": "23553669",
-    "issn_e": "25032518",
+    "id": "3570",
+    "title": "Englisia : Journal of Language, Education, and Humanities",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3570",
+    "website": "https://publication.ar-raniry.ac.id/index.php/englisia/index",
+    "issn_p": "23392576",
+    "issn_e": "25276484",
     "subject_area": "Education",
     "sinta_level": "S2",
     "scopus_indexed": false,
@@ -18462,6 +18474,18 @@
     "website": "http://jurnal.staialhidayahbogor.ac.id/index.php/ei/",
     "issn_p": "22528970",
     "issn_e": "25811754",
+    "subject_area": "Education",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3591",
+    "title": "Edukasi: Jurnal Pendidikan dan Pengajaran",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3591",
+    "website": "http://jurnal.radenfatah.ac.id/index.php/edukasi/issue/archive",
+    "issn_p": "23553669",
+    "issn_e": "25032518",
     "subject_area": "Education",
     "sinta_level": "S2",
     "scopus_indexed": false,
@@ -19332,18 +19356,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "5014",
-    "title": "IJCLS (Indonesian Journal of Criminal Law Studies)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5014",
-    "website": "https://journal.unnes.ac.id/journals/ijcls",
-    "issn_p": null,
-    "issn_e": "25481576",
-    "subject_area": null,
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5012",
     "title": "International Journal of Applied Business and International Management",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5012",
@@ -19351,6 +19363,18 @@
     "issn_p": "26147432",
     "issn_e": "26212862",
     "subject_area": "Economy, Humanities, Science, Education, Social",
+    "sinta_level": "S2",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5014",
+    "title": "IJCLS (Indonesian Journal of Criminal Law Studies)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5014",
+    "website": "https://journal.unnes.ac.id/journals/ijcls",
+    "issn_p": null,
+    "issn_e": "25481576",
+    "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -21360,18 +21384,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "13673",
-    "title": "Smart Society: Community Service and Empowerment Journal",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13673",
-    "website": "https://journal.foundae.com/index.php/smartsoc",
-    "issn_p": "28075722",
-    "issn_e": "28075757",
-    "subject_area": null,
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "13742",
     "title": "Jurnal Pemberdayaan Masyarakat",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13742",
@@ -21522,7 +21534,7 @@
     "website": "https://areste.org/index.php/oai",
     "issn_p": "27767213",
     "issn_e": "27767205",
-    "subject_area": null,
+    "subject_area": "Agriculture, Social, Engineering",
     "sinta_level": "S2",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -21702,18 +21714,6 @@
     "website": "https://pub.borneorec.com/index.php/gawi",
     "issn_p": "0",
     "issn_e": "28091108",
-    "subject_area": null,
-    "sinta_level": "S2",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15393",
-    "title": "International Journal of Applied Mathematics, Sciences, and Technology for National Defense",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15393",
-    "website": "https://journal.foundae.com/index.php/JAS-ND",
-    "issn_p": "29860776",
-    "issn_e": "29859352",
     "subject_area": null,
     "sinta_level": "S2",
     "scopus_indexed": false,
@@ -22656,18 +22656,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "5249",
-    "title": "Jurnal Elementaria Edukasia",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5249",
-    "website": "http://jurnal.unma.ac.id/index.php/jee",
-    "issn_p": "26154625",
-    "issn_e": "26550857",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5653",
     "title": "Nominal: Barometer Riset Akuntansi dan Manajemen",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5653",
@@ -23035,6 +23023,18 @@
     "issn_p": "20897669",
     "issn_e": "26212870",
     "subject_area": "Health",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4028",
+    "title": "Jurnal Ilmiah Al-Syir'ah",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4028",
+    "website": "http://journal.iain-manado.ac.id/index.php/JIS/index",
+    "issn_p": "16934202",
+    "issn_e": "25280368",
+    "subject_area": "Education, Social",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -23724,18 +23724,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4028",
-    "title": "Jurnal Ilmiah Al-Syir'ah",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4028",
-    "website": "http://journal.iain-manado.ac.id/index.php/JIS/index",
-    "issn_p": "16934202",
-    "issn_e": "25280368",
-    "subject_area": "Education, Social",
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "9069",
     "title": "Media Manajemen Pendidikan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9069",
@@ -24403,6 +24391,18 @@
     "issn_p": "25481401",
     "issn_e": "25484346",
     "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "18455",
+    "title": "Champions: Education Journal of Sport, Health, and Recreation",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18455",
+    "website": "https://ejournal.imbima.org/index.php/champions",
+    "issn_p": "0",
+    "issn_e": "30312949",
+    "subject_area": "Humanities, Education",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -25884,6 +25884,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "9225",
+    "title": "At Turots: Jurnal Pendidikan Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9225",
+    "website": "https://journal.stitmadani.ac.id/index.php/JPI",
+    "issn_p": "26567555",
+    "issn_e": "2747089X",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "8953",
     "title": "Jurnal Kepariwisataan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/8953",
@@ -26091,7 +26103,7 @@
     "id": "10001",
     "title": "INTI Nusa Mandiri",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/10001",
-    "website": "https://ejournal.nusamandiri.ac.id/index.php/inti/index",
+    "website": "#!",
     "issn_p": "02166933",
     "issn_e": "2685807X",
     "subject_area": null,
@@ -26280,18 +26292,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4431",
-    "title": "Journal of Business & Banking",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4431",
-    "website": "https://journal.perbanas.ac.id/index.php/jbb/",
-    "issn_p": "20887841",
-    "issn_e": "23033460",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "8782",
     "title": "ENTITA: Jurnal Pendidikan Ilmu Pengetahuan Sosial dan Ilmu-Ilmu Sosial",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/8782",
@@ -26419,6 +26419,18 @@
     "issn_p": "14109328",
     "issn_e": "26140071",
     "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17584",
+    "title": "Abdurrauf Journal of Islamic Studies",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17584",
+    "website": "https://journal.staisar.ac.id/index.php/arjis",
+    "issn_p": "28283597",
+    "issn_e": "28284879",
+    "subject_area": "Religion, Humanities, Education, Social",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -27420,6 +27432,18 @@
     "garuda_indexed": false
   },
   {
+    "id": "18135",
+    "title": "Fonologi: Jurnal Ilmuan Bahasa dan Sastra Inggris",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18135",
+    "website": "https://journal.aspirasi.or.id/index.php/Fonologi",
+    "issn_p": "30255996",
+    "issn_e": "30256003",
+    "subject_area": "Humanities, Education, Art",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "12536",
     "title": "Nuris Journal of Education and Islamic Studies",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/12536",
@@ -27654,18 +27678,6 @@
     "website": "http://ijebe.feb.unila.ac.id/index.php/ijebe",
     "issn_p": "0",
     "issn_e": "26156873",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "16050",
-    "title": "Jurnal Greenation Ilmu Teknik",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16050",
-    "website": "https://greenationpublisher.org/JGIT",
-    "issn_p": "29858615",
-    "issn_e": "29858607",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -28848,6 +28860,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "16050",
+    "title": "Jurnal Greenation Ilmu Teknik",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16050",
+    "website": "https://greenationpublisher.org/JGIT",
+    "issn_p": "29858615",
+    "issn_e": "29858607",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "8067",
     "title": "Jurnal Triton",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/8067",
@@ -29112,18 +29136,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "9225",
-    "title": "At Turots: Jurnal Pendidikan Islam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9225",
-    "website": "https://journal.stitmadani.ac.id/index.php/JPI",
-    "issn_p": "26567555",
-    "issn_e": "2747089X",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "9409",
     "title": "ProGCouns: Journal of Professionals in Guidance and Counseling",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9409",
@@ -29191,6 +29203,18 @@
     "issn_p": "0",
     "issn_e": "3021713X",
     "subject_area": "Religion, Humanities, Education",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4431",
+    "title": "Journal of Business & Banking",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4431",
+    "website": "https://journal.perbanas.ac.id/index.php/jbb/",
+    "issn_p": "20887841",
+    "issn_e": "23033460",
+    "subject_area": "Economy",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -30895,6 +30919,18 @@
     "issn_p": "23550228",
     "issn_e": "25028316",
     "subject_area": "Economy",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "1971",
+    "title": "Media Ekonomi dan Manajemen",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/1971",
+    "website": "https://ejurnal.untagsmg.ac.id/index.php/mem",
+    "issn_p": "08541442",
+    "issn_e": "25034464",
+    "subject_area": "Economy, Science, Education",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -34992,6 +35028,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "9614",
+    "title": "CRANE: Civil Engineering Research Journal",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9614",
+    "website": "https://ojs.unikom.ac.id/index.php/crane/journalsummary",
+    "issn_p": "0",
+    "issn_e": "27754588",
+    "subject_area": "Engineering",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "7858",
     "title": "International Journal of Green Tourism Research and Applications",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/7858",
@@ -36972,18 +37020,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "1971",
-    "title": "Media Ekonomi dan Manajemen",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/1971",
-    "website": "http://jurnal.untagsmg.ac.id/index.php/fe",
-    "issn_p": "08541442",
-    "issn_e": "25034464",
-    "subject_area": "Economy, Science, Education",
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2394",
     "title": "Administratio : Jurnal Ilmiah Administrasi Publik dan Pembangunan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2394",
@@ -37579,6 +37615,18 @@
     "issn_p": "23027932",
     "issn_e": "25277529",
     "subject_area": "Health",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "14356",
+    "title": "Muslim Politics Review",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/14356",
+    "website": "https://journal.uiii.ac.id/index.php/mpr",
+    "issn_p": "28293568",
+    "issn_e": "2964979X",
+    "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -39456,6 +39504,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "17894",
+    "title": "Satmata: Journal of Historical Education Studies",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17894",
+    "website": "https://fahruddin.org/index.php/satmata",
+    "issn_p": null,
+    "issn_e": "30249554",
+    "subject_area": "Education, Social",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "5906",
     "title": "Leksika: Jurnal Bahasa, Sastra dan Pengajarannya",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5906",
@@ -39703,18 +39763,6 @@
     "issn_p": "0",
     "issn_e": "27767574",
     "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17894",
-    "title": "Satmata: Journal or Historical Education Studies",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17894",
-    "website": "https://fahruddin.org/index.php/satmata",
-    "issn_p": "0",
-    "issn_e": "30249554",
-    "subject_area": "Education, Social",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -40290,7 +40338,7 @@
     "website": "https://journal.kalibra.or.id/index.php/emis",
     "issn_p": "0",
     "issn_e": "30317150",
-    "subject_area": null,
+    "subject_area": "Economy",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -42079,6 +42127,18 @@
     "issn_p": "27472043",
     "issn_e": "2747299X",
     "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17773",
+    "title": "Diversity Logic Journal Multidisciplinary",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17773",
+    "website": "https://syntificpublisher.com/index.php/diversity",
+    "issn_p": null,
+    "issn_e": "2988571X",
+    "subject_area": "Economy, Education, Social, Engineering",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -45216,18 +45276,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "2948",
-    "title": "Jurnal Penelitian Politik",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2948",
-    "website": "http://ejournal.politik.lipi.go.id",
-    "issn_p": "18298001",
-    "issn_e": "25027476",
-    "subject_area": "Education, Social",
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2951",
     "title": "Jurnal Perempuan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2951",
@@ -45235,6 +45283,18 @@
     "issn_p": "1410153X",
     "issn_e": "25412191",
     "subject_area": "Humanities",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2948",
+    "title": "Jurnal Penelitian Politik",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2948",
+    "website": "http://ejournal.politik.lipi.go.id",
+    "issn_p": "18298001",
+    "issn_e": "25027476",
+    "subject_area": "Education, Social",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -45312,18 +45372,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3083",
-    "title": "LINGUA : Jurnal Bahasa, Sastra, dan Pengajarannya",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3083",
-    "website": "https://lingua.soloclcs.org",
-    "issn_p": "19799411",
-    "issn_e": "2442238X",
-    "subject_area": "Humanities, Education, Art, Social",
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3089",
     "title": "Madah",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3089",
@@ -45331,6 +45379,18 @@
     "issn_p": "20866038",
     "issn_e": "25809717",
     "subject_area": "Humanities, Art",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3083",
+    "title": "LINGUA : Jurnal Bahasa, Sastra, dan Pengajarannya",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3083",
+    "website": "https://lingua.soloclcs.org",
+    "issn_p": "19799411",
+    "issn_e": "2442238X",
+    "subject_area": "Humanities, Education, Art, Social",
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -46908,24 +46968,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4475",
-    "title": "Simbur Cahaya",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4475",
-    "website": "http://journal.fh.unsri.ac.id/index.php/simburcahaya/issue/archive",
-    "issn_p": "14100614",
-    "issn_e": "26849941",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4473",
     "title": "ThufuLA : Jurnal Inovasi Pendidikan Guru Raudhatul Athfal",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4473",
     "website": "http://journal.stainkudus.ac.id/index.php/thufula/issue/archive",
     "issn_p": "23550163",
     "issn_e": "25023845",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4475",
+    "title": "Simbur Cahaya",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4475",
+    "website": "http://journal.fh.unsri.ac.id/index.php/simburcahaya/issue/archive",
+    "issn_p": "14100614",
+    "issn_e": "26849941",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -47292,24 +47352,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4690",
-    "title": "International Journal of Language Teaching and Education",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4690",
-    "website": "https://online-journal.unja.ac.id/IJoLTE/index",
-    "issn_p": "26141191",
-    "issn_e": "25982303",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4693",
     "title": "JIIF (Jurnal Ilmu dan Inovasi Fisika)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4693",
     "website": "http://jurnal.unpad.ac.id/jiif/",
     "issn_p": "25490516",
     "issn_e": "25497014",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4690",
+    "title": "International Journal of Language Teaching and Education",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4690",
+    "website": "https://online-journal.unja.ac.id/IJoLTE/index",
+    "issn_p": "26141191",
+    "issn_e": "25982303",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -47328,18 +47388,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4722",
-    "title": "PROZIMA (Productivity, Optimization and Manufacturing System Engineering)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4722",
-    "website": "https://prozima.umsida.ac.id/index.php/prozima/index",
-    "issn_p": null,
-    "issn_e": "25415115",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4717",
     "title": "Orbital: Jurnal Pendidikan Kimia",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4717",
@@ -47347,6 +47395,18 @@
     "issn_p": "25801856",
     "issn_e": "25980858",
     "subject_area": "Science, Education",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4722",
+    "title": "PROZIMA (Productivity, Optimization and Manufacturing System Engineering)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4722",
+    "website": "https://prozima.umsida.ac.id/index.php/prozima/index",
+    "issn_p": null,
+    "issn_e": "25415115",
+    "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -47436,18 +47496,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4766",
-    "title": "Jurnal Geografi Gea",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4766",
-    "website": "http://ejournal.upi.edu/index.php/gea",
-    "issn_p": "14120313",
-    "issn_e": "25497529",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4765",
     "title": "Conciencia",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4765",
@@ -47460,12 +47508,12 @@
     "garuda_indexed": true
   },
   {
-    "id": "4780",
-    "title": "Jurnal Sains dan Teknologi",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4780",
-    "website": "https://jst.ejournal.unri.ac.id/index.php/JST",
-    "issn_p": "14126257",
-    "issn_e": "25499742",
+    "id": "4766",
+    "title": "Jurnal Geografi Gea",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4766",
+    "website": "http://ejournal.upi.edu/index.php/gea",
+    "issn_p": "14120313",
+    "issn_e": "25497529",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -47478,6 +47526,18 @@
     "website": "https://ppjp.ulm.ac.id/journal/index.php/multilateralpjkr",
     "issn_p": "14123428",
     "issn_e": "25491415",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4780",
+    "title": "Jurnal Sains dan Teknologi",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4780",
+    "website": "https://jst.ejournal.unri.ac.id/index.php/JST",
+    "issn_p": "14126257",
+    "issn_e": "25499742",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -47892,24 +47952,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "5145",
-    "title": "Jurnal Infrastruktur",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5145",
-    "website": "http://journal.univpancasila.ac.id/index.php/infrastruktur/issue/archive",
-    "issn_p": "24769339",
-    "issn_e": "25409212",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5148",
     "title": "Ophthalmologica Indonesiana",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5148",
     "website": "https://ophthalmologica-indonesiana.com/index.php/",
     "issn_p": "01261193",
     "issn_e": "2460545X",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5145",
+    "title": "Jurnal Infrastruktur",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5145",
+    "website": "http://journal.univpancasila.ac.id/index.php/infrastruktur/issue/archive",
+    "issn_p": "24769339",
+    "issn_e": "25409212",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -48084,6 +48144,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "5249",
+    "title": "Jurnal Elementaria Edukasia",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5249",
+    "website": "https://ejournal.unma.ac.id/index.php/jee",
+    "issn_p": "26154625",
+    "issn_e": "26550857",
+    "subject_area": "Education",
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "5251",
     "title": "Jurnal Arsitektur dan Perencanaan (JUARA)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5251",
@@ -48192,24 +48264,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "5321",
-    "title": "International Journal of Educational Best Practices",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5321",
-    "website": "https://ijebp.ejournal.unri.ac.id/index.php/IJEBP",
-    "issn_p": null,
-    "issn_e": "25810847",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5318",
     "title": "Journal of Islamic Medicine",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5318",
     "website": "http://ejournal.uin-malang.ac.id/index.php/jim/",
     "issn_p": null,
     "issn_e": "25500074",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5321",
+    "title": "International Journal of Educational Best Practices",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5321",
+    "website": "https://ijebp.ejournal.unri.ac.id/index.php/IJEBP",
+    "issn_p": null,
+    "issn_e": "25810847",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -48228,24 +48300,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "5330",
-    "title": "Media Ekonomi",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5330",
-    "website": "https://e-journal.trisakti.ac.id/index.php/medek/index",
-    "issn_p": "08533970",
-    "issn_e": "24429686",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5328",
     "title": "Jurnal Transformative",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5328",
     "website": "https://transformative.ub.ac.id/index.php/jtr/index",
     "issn_p": "25483323",
     "issn_e": "25810308",
+    "subject_area": null,
+    "sinta_level": "S3",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5330",
+    "title": "Media Ekonomi",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5330",
+    "website": "https://e-journal.trisakti.ac.id/index.php/medek/index",
+    "issn_p": "08533970",
+    "issn_e": "24429686",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -52860,18 +52932,6 @@
     "garuda_indexed": false
   },
   {
-    "id": "9614",
-    "title": "CRANE: Civil Engineering Research Journal",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9614",
-    "website": "https://ojs.unikom.ac.id/index.php/crane/journalsummary",
-    "issn_p": "0",
-    "issn_e": "27754588",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "9612",
     "title": "Computational and Experimental Research in Materials and Renewable Energy (CERiMRE)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9612",
@@ -56298,18 +56358,6 @@
     "website": "http://journal.ipb.ac.id/index.php/bulagron",
     "issn_p": "23373407",
     "issn_e": "26143194",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "14356",
-    "title": "Muslim Politics Review",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/14356",
-    "website": "https://journal.uiii.ac.id/index.php/mpr",
-    "issn_p": "28293568",
-    "issn_e": "2964979X",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -60360,18 +60408,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "17584",
-    "title": "Abdurrauf Journal of Islamic Studies",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17584",
-    "website": "https://journal.staisar.ac.id/index.php/arjis",
-    "issn_p": "28283597",
-    "issn_e": "28284879",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "17586",
     "title": "Najwa",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17586",
@@ -60666,18 +60702,6 @@
     "website": "https://journal.aira.or.id/index.php/gabdimas",
     "issn_p": "0",
     "issn_e": "30471230",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17773",
-    "title": "Diversity Logic Journal Multidisciplinary",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17773",
-    "website": "https://syntificpublisher.com/index.php/diversity",
-    "issn_p": "0",
-    "issn_e": "2988571X",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -61440,18 +61464,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "18135",
-    "title": "Fonologi: Jurnal Ilmuan Bahasa dan Sastra Inggris",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18135",
-    "website": "https://journal.aspirasi.or.id/index.php/Fonologi",
-    "issn_p": "30255996",
-    "issn_e": "30256003",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "18140",
     "title": "INTERNATIONAL JOURNAL OF ECONOMICS AND MANAGEMENT REVIEW",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18140",
@@ -62118,18 +62130,6 @@
     "website": "https://jurnal.stikeskesosi.ac.id/index.php/NAJ",
     "issn_p": "30265770",
     "issn_e": "30265762",
-    "subject_area": null,
-    "sinta_level": "S3",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "18455",
-    "title": "Champions: Education Journal of Sport, Health, and Recreation",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18455",
-    "website": "https://ejournal.imbima.org/index.php/champions",
-    "issn_p": "0",
-    "issn_e": "30312949",
     "subject_area": null,
     "sinta_level": "S3",
     "scopus_indexed": false,
@@ -63024,6 +63024,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "17899",
+    "title": "ARembeN",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17899",
+    "website": "https://ejournal.cvrobema.com/index.php/aremben",
+    "issn_p": "0",
+    "issn_e": "29886848",
+    "subject_area": "Humanities, Science, Agriculture, Engineering",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "4415",
     "title": "PAUD Lectura : Jurnal Pendidikan Anak Usia Dini",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4415",
@@ -63528,6 +63540,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "17977",
+    "title": "WATHAN: Jurnal Ilmu Sosial dan Humaniora",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17977",
+    "website": "https://jurnal.fanshurinstitute.org/index.php/wathan",
+    "issn_p": "30468949",
+    "issn_e": "30468957",
+    "subject_area": "Religion, Economy, Humanities, Education, Social",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "8920",
     "title": "Jurnal Ekonomi Efektif",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/8920",
@@ -63852,6 +63876,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "15926",
+    "title": "Jurnal Kolaborasi Sains dan Ilmu Terapan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15926",
+    "website": "https://utilityprojectsolution.org/ejournal/index.php/JuKSIT",
+    "issn_p": "0",
+    "issn_e": "29645581",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "9198",
     "title": "Al-Mubin: Islamic Scientific Journal",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/9198",
@@ -64134,6 +64170,18 @@
     "website": "http://jurnalmadani.org/index.php/madani",
     "issn_p": "26151995",
     "issn_e": "26150654",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17053",
+    "title": "Trends in Applied Sciences, Social Sciences, and Education",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17053",
+    "website": "https://ejournal.pabki.org/index.php/TASE",
+    "issn_p": "0",
+    "issn_e": "30263816",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -65160,6 +65208,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "4406",
+    "title": "Edumaspul: Jurnal Pendidikan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4406",
+    "website": "https://jurnal2.unimen.cloud/index.php/edumaspul",
+    "issn_p": "25488201",
+    "issn_e": "25800469",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "12608",
     "title": "Journal of Economics and Business (JECOMBI)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/12608",
@@ -65287,6 +65347,18 @@
     "issn_p": "26230356",
     "issn_e": "26545586",
     "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17736",
+    "title": "Jurnal Keperawatan Sumba (JKS)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17736",
+    "website": "https://jurnal.poltekkeskupang.ac.id/index.php/jks",
+    "issn_p": "0",
+    "issn_e": "29622166",
+    "subject_area": "Health",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -68520,6 +68592,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "6469",
+    "title": "Citra Delima Scientific journal of Citra Internasional Institute",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/6469",
+    "website": "https://jurnalilmiah.ici.ac.id/index.php/JI/index",
+    "issn_p": "20872240",
+    "issn_e": "26550792",
+    "subject_area": "Health",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "13572",
     "title": "Journal of Educational Management Research",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13572",
@@ -69252,18 +69336,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "6469",
-    "title": "Citra Delima Scientific journal of Citra Internasional Institute",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/6469",
-    "website": "https://jurnalilmiah.ici.ac.id/index.php/JI/index",
-    "issn_p": "20872240",
-    "issn_e": "26550792",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4643",
     "title": "Raudhatul Athfal: Jurnal Pendidikan Islam Anak Usia Dini",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4643",
@@ -69295,6 +69367,18 @@
     "issn_p": "23387572",
     "issn_e": "26150778",
     "subject_area": "Social",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "18461",
+    "title": "Jurnal Abdimas: Sosial, Bisnis, dan Lingkungan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18461",
+    "website": "https://jurnal.kwikkiangie.ac.id/index.php/abdimas",
+    "issn_p": "0",
+    "issn_e": "30323738",
+    "subject_area": "Economy, Humanities, Education, Social",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -72948,6 +73032,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "18013",
+    "title": "Journal of Education for All",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18013",
+    "website": "https://www.mediaarrahman.com/ojs/index.php/edufa",
+    "issn_p": "0",
+    "issn_e": "29865751",
+    "subject_area": "Education, Social",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "12405",
     "title": "SECONDARY : Jurnal Inovasi Pendidikan Menengah (JIPM)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/12405",
@@ -73794,6 +73890,18 @@
     "website": "https://journal.upy.ac.id/index.php/ubmj",
     "issn_p": "0",
     "issn_e": "28283554",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "11895",
+    "title": "IJOPHYA",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/11895",
+    "website": "https://ijophya.org/index.php/ijophya",
+    "issn_p": null,
+    "issn_e": "27764516",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -78168,18 +78276,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "11895",
-    "title": "Indonesian Journal of Physical Activity",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/11895",
-    "website": "https://www.ijophya.org/index.php/ijophya",
-    "issn_p": "0",
-    "issn_e": "27764516",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "8280",
     "title": "El-Mal: Jurnal Kajian Ekonomi & Bisnis Islam",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/8280",
@@ -80472,6 +80568,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "18269",
+    "title": "Indonesian Journal of Nutritional Epidemiology and Reproductive",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18269",
+    "website": "https://ijner.org/index.php/IJNER",
+    "issn_p": "0",
+    "issn_e": "26208261",
+    "subject_area": "Health, Social",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "12516",
     "title": "Keizai",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/12516",
@@ -82272,6 +82380,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "17823",
+    "title": "Jurnal  Inovasi Teknologi Terapan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17823",
+    "website": "https://jitt.polman-babel.ac.id/index.php/jitt",
+    "issn_p": "0",
+    "issn_e": "30260213",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "11959",
     "title": "Jurnal Ilmiah Psikologi (JIPSI)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/11959",
@@ -83121,7 +83241,7 @@
     "subject_area": "Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
-    "garuda_indexed": false
+    "garuda_indexed": true
   },
   {
     "id": "10340",
@@ -84799,6 +84919,18 @@
     "issn_p": "20856989",
     "issn_e": "26544733",
     "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17549",
+    "title": "Indonesian Journal of Community Services Cel",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17549",
+    "website": "https://ijcomcel.org/index.php/IJCSC",
+    "issn_p": "28295269",
+    "issn_e": "28294521",
+    "subject_area": "Humanities, Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -89808,6 +89940,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "16645",
+    "title": "HEALTH FRONTIERS (MULTIDISCIPLINARY JOURNAL FOR HEALTH PROFESSIONALS)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16645",
+    "website": "https://tarqabin.com/index.php/mjhp",
+    "issn_p": "0",
+    "issn_e": "30249740",
+    "subject_area": "Health",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "3383",
     "title": "Warmadewa Medical Journal (WMJ)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3383",
@@ -91435,6 +91579,18 @@
     "issn_p": "0",
     "issn_e": "28096797",
     "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17735",
+    "title": "Kelimutu Nursing Journal",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17735",
+    "website": "https://jurnal.poltekkeskupang.ac.id/index.php/KNJ",
+    "issn_p": "0",
+    "issn_e": "29640245",
+    "subject_area": "Health",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -93516,18 +93672,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "2310",
-    "title": "JIPES (Journal of Indonesian Physical Education and Sport)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2310",
-    "website": "http://pps.unj.ac.id/journal/jipes",
-    "issn_p": "24611271",
-    "issn_e": "24611271",
-    "subject_area": "Health, Science, Education",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2301",
     "title": "FOKUS: Jurnal Kajian Keislaman dan Kemasyarakatan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2301",
@@ -93535,6 +93679,18 @@
     "issn_p": "2548334X",
     "issn_e": "25483358",
     "subject_area": "Humanities, Art, Social, Religion",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2310",
+    "title": "JIPES (Journal of Indonesian Physical Education and Sport)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2310",
+    "website": "http://pps.unj.ac.id/journal/jipes",
+    "issn_p": "24611271",
+    "issn_e": "24611271",
+    "subject_area": "Health, Science, Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -93840,18 +93996,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "2674",
-    "title": "Jurnal Abdi: Media pengabdian kepada masyarakat",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2674",
-    "website": "https://journal.unesa.ac.id/index.php/abdi/index",
-    "issn_p": "24605514",
-    "issn_e": "2502651",
-    "subject_area": "Humanities, Education",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "2672",
     "title": "Jurnal Seni Tari",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2672",
@@ -93859,6 +94003,18 @@
     "issn_p": "22526714",
     "issn_e": "25032585",
     "subject_area": "Art",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "2674",
+    "title": "Jurnal Abdi: Media pengabdian kepada masyarakat",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/2674",
+    "website": "https://journal.unesa.ac.id/index.php/abdi/index",
+    "issn_p": "24605514",
+    "issn_e": "2502651",
+    "subject_area": "Humanities, Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -94116,18 +94272,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3395",
-    "title": "Jurnal Pendidikan Kewarganegaraan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3395",
-    "website": "https://ppjp.ulm.ac.id/journal/index.php/pkn/index",
-    "issn_p": "23032979",
-    "issn_e": "25408712",
-    "subject_area": "Education",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3398",
     "title": "PROCESSOR Jurnal Ilmiah Sistem Informasi, Teknologi Informasi dan Sistem Komputer",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3398",
@@ -94135,6 +94279,18 @@
     "issn_p": "19076738",
     "issn_e": "25280082",
     "subject_area": "Science",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3395",
+    "title": "Jurnal Pendidikan Kewarganegaraan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3395",
+    "website": "https://ppjp.ulm.ac.id/journal/index.php/pkn/index",
+    "issn_p": "23032979",
+    "issn_e": "25408712",
+    "subject_area": "Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -94248,18 +94404,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3549",
-    "title": "Indonesian Journal of Islamic Early Childhood Education",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3549",
-    "website": "http://www.journal.pps-pgra.org/index.php/Ijiece",
-    "issn_p": "25412418",
-    "issn_e": "25412434",
-    "subject_area": "Education",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3552",
     "title": "Indonesia Medicus Veterinus",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3552",
@@ -94267,6 +94411,18 @@
     "issn_p": "23017848",
     "issn_e": "24776637",
     "subject_area": "Health",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3549",
+    "title": "Indonesian Journal of Islamic Early Childhood Education",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3549",
+    "website": "http://www.journal.pps-pgra.org/index.php/Ijiece",
+    "issn_p": "25412418",
+    "issn_e": "25412434",
+    "subject_area": "Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -95400,18 +95556,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4406",
-    "title": "Edumaspul: Jurnal Pendidikan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4406",
-    "website": "https://ummaspul.e-journal.id/maspuljr",
-    "issn_p": "25800469",
-    "issn_e": "25488201",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4412",
     "title": "Sains Olahraga : Jurnal Ilmiah Ilmu Keolahragaan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4412",
@@ -95532,6 +95676,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "4462",
+    "title": "Jurnal Ilmu Kesejahteraan Sosial",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4462",
+    "website": "https://scholarhub.ui.ac.id/jiks/",
+    "issn_p": "1412842X",
+    "issn_e": "26569604",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "4464",
     "title": "Jurnal Ilmiah Rekayasa Sipil",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4464",
@@ -95550,18 +95706,6 @@
     "website": "http://jurnal.stikes-hi.ac.id/index.php/rik/index",
     "issn_p": "20888740",
     "issn_e": "25486462",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "4462",
-    "title": "Jurnal Ilmu Kesejahteraan Sosial",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4462",
-    "website": "https://scholarhub.ui.ac.id/jiks/",
-    "issn_p": "1412842X",
-    "issn_e": "26569604",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -95676,18 +95820,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4520",
-    "title": "HIKMAH: Jurnal Ilmu Dakwah dan Komunikasi Islam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4520",
-    "website": "http://jurnal.iain-padangsidimpuan.ac.id/index.php/Hik",
-    "issn_p": "20856113",
-    "issn_e": "24069485",
-    "subject_area": "Religion, Humanities, Social",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4523",
     "title": "Probisnis",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4523",
@@ -95698,6 +95830,18 @@
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": false
+  },
+  {
+    "id": "4520",
+    "title": "HIKMAH: Jurnal Ilmu Dakwah dan Komunikasi Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4520",
+    "website": "http://jurnal.iain-padangsidimpuan.ac.id/index.php/Hik",
+    "issn_p": "20856113",
+    "issn_e": "24069485",
+    "subject_area": "Religion, Humanities, Social",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
   },
   {
     "id": "4526",
@@ -95820,18 +95964,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "4560",
-    "title": "Strategic : Jurnal Pendidikan Manajemen Bisnis",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4560",
-    "website": "http://ejournal.upi.edu/index.php/strategic",
-    "issn_p": "14121964",
-    "issn_e": "26848066",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": false
-  },
-  {
     "id": "4563",
     "title": "Matrik : Jurnal Manajemen dan Teknik Industri Produksi",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4563",
@@ -95842,6 +95974,18 @@
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
+  },
+  {
+    "id": "4560",
+    "title": "Strategic : Jurnal Pendidikan Manajemen Bisnis",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4560",
+    "website": "http://ejournal.upi.edu/index.php/strategic",
+    "issn_p": "14121964",
+    "issn_e": "26848066",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": false
   },
   {
     "id": "4565",
@@ -95976,24 +96120,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4615",
-    "title": "SPEJ (Science and Physics Education Journal)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4615",
-    "website": "https://journal.ipm2kpe.or.id/index.php/SPEJ",
-    "issn_p": "26140195",
-    "issn_e": "25982567",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4617",
     "title": "Physics Communication",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4617",
     "website": "https://journal.unnes.ac.id/journals/pc",
     "issn_p": "25285971",
     "issn_e": "2528598X",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4615",
+    "title": "SPEJ (Science and Physics Education Journal)",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4615",
+    "website": "https://journal.ipm2kpe.or.id/index.php/SPEJ",
+    "issn_p": "26140195",
+    "issn_e": "25982567",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -96432,24 +96576,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4842",
-    "title": "JURNAL TEKNOLOGI PANGAN",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4842",
-    "website": "http://ejournal.upnjatim.ac.id/index.php/teknologi-pangan/issue/archive",
-    "issn_p": "19784163",
-    "issn_e": "26545292",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4848",
     "title": "Didaktika: Jurnal Kependidikan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4848",
     "website": "http://jurnal.iain-bone.ac.id/index.php/didaktika/",
     "issn_p": "19780214",
     "issn_e": "2657196X",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4842",
+    "title": "JURNAL TEKNOLOGI PANGAN",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4842",
+    "website": "http://ejournal.upnjatim.ac.id/index.php/teknologi-pangan/issue/archive",
+    "issn_p": "19784163",
+    "issn_e": "26545292",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -96672,24 +96816,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4944",
-    "title": "Jurnal Sosio Agribisnis",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4944",
-    "website": "http://ojs.uho.ac.id/index.php/JSA/index",
-    "issn_p": null,
-    "issn_e": "25023292",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4941",
     "title": "Kurs : Jurnal Akuntansi, Kewirausahaan dan Bisnis",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4941",
     "website": "http://www.ejournal.pelitaindonesia.ac.id/ojs32/index.php/KURS",
     "issn_p": "25278223",
     "issn_e": "25278215",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4944",
+    "title": "Jurnal Sosio Agribisnis",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4944",
+    "website": "http://ojs.uho.ac.id/index.php/JSA/index",
+    "issn_p": null,
+    "issn_e": "25023292",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -96744,24 +96888,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "4965",
-    "title": "Jurnal Ilmiah AL-Jauhari Jurnal Studi Islam dan Interdisipliner",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4965",
-    "website": "https://journal.iaingorontalo.ac.id/index.php/aj/index",
-    "issn_p": "25413430",
-    "issn_e": "25413449",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "4968",
     "title": "JPIG (Jurnal Pendidikan dan Ilmu Geografi)",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4968",
     "website": "http://ejournal.unikama.ac.id/index.php/JPIG/index",
     "issn_p": "25409077",
     "issn_e": "25409832",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "4965",
+    "title": "Jurnal Ilmiah AL-Jauhari Jurnal Studi Islam dan Interdisipliner",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/4965",
+    "website": "https://journal.iaingorontalo.ac.id/index.php/aj/index",
+    "issn_p": "25413430",
+    "issn_e": "25413449",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -97092,6 +97236,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "5098",
+    "title": "Jumlahku: Jurnal Matematika Ilmiah STKIP Muhammadiyah Kuningan",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5098",
+    "website": "http://jurnal.upmk.ac.id/index.php/jumlahku/home",
+    "issn_p": null,
+    "issn_e": "2654833X",
+    "subject_area": "Science, Education",
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "5093",
     "title": "EVOLUSI : Jurnal Sains dan Manajemen",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5093",
@@ -97111,18 +97267,6 @@
     "issn_p": "23386347",
     "issn_e": "2580992X",
     "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "5098",
-    "title": "Jumlahku: Jurnal Matematika Ilmiah STKIP Muhammadiyah Kuningan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5098",
-    "website": "http://jurnal.upmk.ac.id/index.php/jumlahku/home",
-    "issn_p": null,
-    "issn_e": "2654833X",
-    "subject_area": "Science, Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -97572,18 +97716,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "5352",
-    "title": "Tekmapro: Journal of Industrial Engineering and Management",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5352",
-    "website": "http://tekmapro.upnjatim.ac.id/index.php/tekmapro/issue/archive",
-    "issn_p": "19075146",
-    "issn_e": "26566109",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": false
-  },
-  {
     "id": "5353",
     "title": "Alayasastra: Jurnal Ilmiah Kesusastraan",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5353",
@@ -97594,6 +97726,18 @@
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
+  },
+  {
+    "id": "5352",
+    "title": "Tekmapro: Journal of Industrial Engineering and Management",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5352",
+    "website": "http://tekmapro.upnjatim.ac.id/index.php/tekmapro/issue/archive",
+    "issn_p": "19075146",
+    "issn_e": "26566109",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": false
   },
   {
     "id": "5355",
@@ -97614,18 +97758,6 @@
     "website": "http://ejournal.iba.ac.id/index.php/jemasi",
     "issn_p": "18582702",
     "issn_e": "26848732",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "5360",
-    "title": "Jurnal ISIP : Jurnal Ilmu Sosial dan Ilmu Politik",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5360",
-    "website": "https://ejournal.iisip.ac.id/index.php/jisip/issue/archive",
-    "issn_p": null,
-    "issn_e": "26551985",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -97656,6 +97788,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "5360",
+    "title": "Jurnal ISIP : Jurnal Ilmu Sosial dan Ilmu Politik",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5360",
+    "website": "https://ejournal.iisip.ac.id/index.php/jisip/issue/archive",
+    "issn_p": null,
+    "issn_e": "26551985",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "5368",
     "title": "Buletin Udayana Mengabdi",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5368",
@@ -97680,18 +97824,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "5382",
-    "title": "Kajian Akuntansi",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5382",
-    "website": "https://journals.unisba.ac.id/index.php/kajian_akuntansi",
-    "issn_p": "16930614",
-    "issn_e": "2581074X",
-    "subject_area": "Economy",
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5379",
     "title": "Arabia: Jurnal Pendidikan Bahasa Arab",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5379",
@@ -97699,6 +97831,18 @@
     "issn_p": "2085644X",
     "issn_e": "25022482",
     "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5382",
+    "title": "Kajian Akuntansi",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5382",
+    "website": "https://journals.unisba.ac.id/index.php/kajian_akuntansi",
+    "issn_p": "16930614",
+    "issn_e": "2581074X",
+    "subject_area": "Economy",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -97752,18 +97896,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "5425",
-    "title": "Al Imarah : Jurnal Pemerintahan dan Politik Islam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5425",
-    "website": "https://ejournal.uinfasbengkulu.ac.id/index.php/alimarah/index",
-    "issn_p": "25410067",
-    "issn_e": "2684799X",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5426",
     "title": "Agrifo : Jurnal Agribisnis Universitas Malikussaleh",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5426",
@@ -97776,12 +97908,36 @@
     "garuda_indexed": true
   },
   {
+    "id": "5425",
+    "title": "Al Imarah : Jurnal Pemerintahan dan Politik Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5425",
+    "website": "https://ejournal.uinfasbengkulu.ac.id/index.php/alimarah/index",
+    "issn_p": "25410067",
+    "issn_e": "2684799X",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "5440",
     "title": "Jurnal Sistem Teknik Industri",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5440",
     "website": "https://talenta.usu.ac.id/jsti/index",
     "issn_p": "14115247",
     "issn_e": "25279408",
+    "subject_area": null,
+    "sinta_level": "S4",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5441",
+    "title": "Majalah Ilmu Pengetahuan dan Keagamaan Tajdid",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5441",
+    "website": "https://ejournal.uinib.ac.id/jurnal/index.php/tajdid/index",
+    "issn_p": "14102617",
+    "issn_e": "2685466X",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -97806,18 +97962,6 @@
     "website": "http://riset-iaid.net/index.php/tajdid",
     "issn_p": "08549850",
     "issn_e": "26218259",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "5441",
-    "title": "Majalah Ilmu Pengetahuan dan Keagamaan Tajdid",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5441",
-    "website": "https://ejournal.uinib.ac.id/jurnal/index.php/tajdid/index",
-    "issn_p": "14102617",
-    "issn_e": "2685466X",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -111303,7 +111447,7 @@
     "id": "11362",
     "title": "Dinamika",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/11362",
-    "website": "https://journal.stiestekom.ac.id/index.php/dinamika",
+    "website": "http://journal.stiestekom.ac.id/index.php/dinamika",
     "issn_p": "28088786",
     "issn_e": "27981355",
     "subject_area": null,
@@ -119838,7 +119982,7 @@
     "website": "https://greenationpublisher.org/JGPP",
     "issn_p": "29861861",
     "issn_e": "29861497",
-    "subject_area": null,
+    "subject_area": "Agriculture",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -119934,18 +120078,6 @@
     "website": "https://research.e-greenation.org/GIJTM",
     "issn_p": "29866103",
     "issn_e": "2986559X",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15926",
-    "title": "Jurnal Kolaborasi Sains dan Ilmu Terapan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15926",
-    "website": "https://utilityprojectsolution.org/ejournal/index.php/JuKSIT",
-    "issn_p": "0",
-    "issn_e": "29645581",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -121156,9 +121288,9 @@
     "title": "Advantage: Journal of Management and Business",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16218",
     "website": "https://jurnalapik.id/index.php/advantage",
-    "issn_p": "0",
+    "issn_p": null,
     "issn_e": "30250471",
-    "subject_area": null,
+    "subject_area": "Economy, Education, Social",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -123096,18 +123228,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "16645",
-    "title": "HEALTH FRONTIERS (MULTIDISCIPLINARY JOURNAL FOR HEALTH PROFESSIONALS)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16645",
-    "website": "https://tarqabin.com/index.php/mjhp",
-    "issn_p": "0",
-    "issn_e": "30249740",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "16646",
     "title": "Journal of Informatics and Electronics Engineering",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16646",
@@ -124914,18 +125034,6 @@
     "website": "https://ejournal.corespub.com/index.php/ijmsc/index",
     "issn_p": "0",
     "issn_e": "30250803",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17053",
-    "title": "Trends in Applied Sciences, Social Sciences, and Education",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17053",
-    "website": "https://ejournal.pabki.org/index.php/TASE",
-    "issn_p": "0",
-    "issn_e": "30263816",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -127296,18 +127404,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "17549",
-    "title": "Indonesian Journal of Community Services Cel",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17549",
-    "website": "https://ijcomcel.org/index.php/IJCSC",
-    "issn_p": "28295269",
-    "issn_e": "28294521",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "17551",
     "title": "TAFASIR",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17551",
@@ -128298,31 +128394,7 @@
     "website": "https://jurnal.poltekkeskupang.ac.id/index.php/KJFNR",
     "issn_p": "27209490",
     "issn_e": "27214877",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17735",
-    "title": "Kelimutu Nursing Journal",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17735",
-    "website": "https://jurnal.poltekkeskupang.ac.id/index.php/KNJ",
-    "issn_p": "0",
-    "issn_e": "29640245",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17736",
-    "title": "Jurnal Keperawatan Sumba (JKS)",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17736",
-    "website": "https://jurnal.poltekkeskupang.ac.id/index.php/jks",
-    "issn_p": "0",
-    "issn_e": "29622166",
-    "subject_area": null,
+    "subject_area": "Health, Education",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -128718,18 +128790,6 @@
     "website": "https://jurnal.unismabekasi.ac.id/index.php/cefars/index",
     "issn_p": "20861508",
     "issn_e": "3032680X",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "17823",
-    "title": "Jurnal  Inovasi Teknologi Terapan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17823",
-    "website": "https://jitt.polman-babel.ac.id/index.php/jitt",
-    "issn_p": "0",
-    "issn_e": "30260213",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -129156,18 +129216,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "17899",
-    "title": "ARembeN",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17899",
-    "website": "https://ejournal.cvrobema.com/index.php/aremben",
-    "issn_p": "0",
-    "issn_e": "29886848",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "17900",
     "title": "Jurnal Teologi Injili dan Pendidikan Agama",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17900",
@@ -129576,18 +129624,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "17977",
-    "title": "WATHAN: Jurnal Ilmu Sosial dan Humaniora",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17977",
-    "website": "https://jurnal.fanshurinstitute.org/index.php/wathan",
-    "issn_p": "30468949",
-    "issn_e": "30468957",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "17979",
     "title": "DELICTUM : Jurnal Hukum Pidana Islam",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17979",
@@ -129786,18 +129822,6 @@
     "website": "https://ejournal.jemainstitut.com/index.php/jkemi",
     "issn_p": "0",
     "issn_e": "30259460",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "18013",
-    "title": "Journal of Education for All",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18013",
-    "website": "https://www.mediaarrahman.com/ojs/index.php/edufa",
-    "issn_p": "0",
-    "issn_e": "29865751",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -130768,9 +130792,9 @@
     "title": "Sighat : Jurnal Hukum Ekonomi Syariah",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18229",
     "website": "https://ejurnal.iainpare.ac.id/index.php/shighat_hes",
-    "issn_p": "0",
+    "issn_p": null,
     "issn_e": "29857279",
-    "subject_area": null,
+    "subject_area": "Social",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -130890,7 +130914,7 @@
     "website": "https://jurnal.poltekkeskupang.ac.id/index.php/jtdhs/",
     "issn_p": "29646677",
     "issn_e": "29646677",
-    "subject_area": null,
+    "subject_area": "Humanities, Health",
     "sinta_level": "S4",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -131010,18 +131034,6 @@
     "website": "https://ejournal.uinbukittinggi.ac.id/index.php/belief",
     "issn_p": "0",
     "issn_e": "30259118",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "18269",
-    "title": "Indonesian Journal of Nutritional Epidemiology and Reproductive",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18269",
-    "website": "https://ijner.org/index.php/IJNER",
-    "issn_p": "0",
-    "issn_e": "26208261",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -132006,18 +132018,6 @@
     "website": "http://journal.aptikomsumut.org/index.php/jocosir",
     "issn_p": "0",
     "issn_e": "29862337",
-    "subject_area": null,
-    "sinta_level": "S4",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "18461",
-    "title": "Jurnal Abdimas: Sosial, Bisnis, dan Lingkungan",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18461",
-    "website": "https://jurnal.kwikkiangie.ac.id/index.php/abdimas",
-    "issn_p": "0",
-    "issn_e": "30323738",
     "subject_area": null,
     "sinta_level": "S4",
     "scopus_indexed": false,
@@ -133879,6 +133879,18 @@
     "issn_p": "2723746X",
     "issn_e": "27228592",
     "subject_area": null,
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "18340",
+    "title": "Masterpiece: Journal of Islamic Studies and Social Sciences",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/18340",
+    "website": "https://journal.minhajpustaka.id/index.php/masterpiece",
+    "issn_p": null,
+    "issn_e": "30310881",
+    "subject_area": "Religion, Humanities, Education, Social",
     "sinta_level": "S5",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -140016,6 +140028,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "16291",
+    "title": "Revenue : Jurnal Ekonomi Pembangunan dan Ekonomi Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/16291",
+    "website": "https://ejournal.stieba.ac.id/index.php/revenue",
+    "issn_p": "29630215",
+    "issn_e": "26207826",
+    "subject_area": "Economy",
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "11315",
     "title": "Jurnal Abdi Masyarakat Humanis",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/11315",
@@ -140047,6 +140071,18 @@
     "issn_p": "0",
     "issn_e": "27971910",
     "subject_area": null,
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "17463",
+    "title": "AnoaTIK: Jurnal Teknologi Informasi dan Komputer",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17463",
+    "website": "https://anoatik.uho.ac.id/index.php/atik",
+    "issn_p": null,
+    "issn_e": "29877652",
+    "subject_area": "Science",
     "sinta_level": "S5",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -154884,6 +154920,18 @@
     "garuda_indexed": true
   },
   {
+    "id": "17783",
+    "title": "Synthesis Global Health Journal",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/17783",
+    "website": "https://syntificpublisher.com/index.php/synthesis",
+    "issn_p": "0",
+    "issn_e": "29883970",
+    "subject_area": "Health",
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
     "id": "13327",
     "title": "Journal of Language Learning and Research",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/13327",
@@ -156060,18 +156108,6 @@
     "garuda_indexed": true
   },
   {
-    "id": "3609",
-    "title": "BISNIS: Jurnal Bisnis dan Manajemen Islam",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3609",
-    "website": "https://journal.iainkudus.ac.id/index.php/Bisnis/index",
-    "issn_p": "24423718",
-    "issn_e": "24775533",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "3603",
     "title": "Cakrawala : Jurnal Humaniora Bina Sarana Informatika",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3603",
@@ -156079,6 +156115,18 @@
     "issn_p": "14118629",
     "issn_e": "25793314",
     "subject_area": "Humanities, Art, Social",
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "3609",
+    "title": "BISNIS: Jurnal Bisnis dan Manajemen Islam",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/3609",
+    "website": "https://journal.iainkudus.ac.id/index.php/Bisnis/index",
+    "issn_p": "24423718",
+    "issn_e": "24775533",
+    "subject_area": null,
     "sinta_level": "S5",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -157656,24 +157704,24 @@
     "garuda_indexed": true
   },
   {
-    "id": "5309",
-    "title": "Lingua : Jurnal Pendidikan Bahasa",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5309",
-    "website": "https://uia.e-journal.id/Lingua",
-    "issn_p": "18297951",
-    "issn_e": "26559889",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
     "id": "5307",
     "title": "Purwadita : Jurnal Agama dan Budaya",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5307",
     "website": "http://jurnal.stahnmpukuturan.ac.id/index.php/Purwadita",
     "issn_p": "25497928",
     "issn_e": "26211017",
+    "subject_area": null,
+    "sinta_level": "S5",
+    "scopus_indexed": false,
+    "garuda_indexed": true
+  },
+  {
+    "id": "5309",
+    "title": "Lingua : Jurnal Pendidikan Bahasa",
+    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/5309",
+    "website": "https://uia.e-journal.id/Lingua",
+    "issn_p": "18297951",
+    "issn_e": "26559889",
     "subject_area": null,
     "sinta_level": "S5",
     "scopus_indexed": false,
@@ -161403,10 +161451,10 @@
     "id": "7552",
     "title": "MBA: Journal of Management and Business Aplication",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/7552",
-    "website": "http://jurnal.itsm.ac.id/index.php/mba",
+    "website": "http://jurnal.stie-mandala.ac.id/index.php/mba",
     "issn_p": "26141981",
     "issn_e": "26150352",
-    "subject_area": null,
+    "subject_area": "Economy, Humanities, Science, Social",
     "sinta_level": "S5",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -185440,9 +185488,9 @@
     "title": "Amorti: Jurnal Studi Islam Interdisipliner",
     "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15680",
     "website": "https://journal.amorfati.id/index.php/AMORTI",
-    "issn_p": "0",
+    "issn_p": null,
     "issn_e": "29629209",
-    "subject_area": null,
+    "subject_area": "Religion, Humanities, Education, Social",
     "sinta_level": "S5",
     "scopus_indexed": false,
     "garuda_indexed": true
@@ -185466,54 +185514,6 @@
     "website": "https://jurnal.poliwangi.ac.id/index.php/javanica",
     "issn_p": "0",
     "issn_e": "29638186",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15686",
-    "title": "Jurnal Teknik dan teknologi tepat guna",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15686",
-    "website": "https://rcf-indonesia.org/home/index.php/jtech",
-    "issn_p": "0",
-    "issn_e": "29631068",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15687",
-    "title": "Jurnal Sakato Ekasakti Law Review",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15687",
-    "website": "https://journal.unespadang.ac.id/JSELR",
-    "issn_p": "28291298",
-    "issn_e": "28290305",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15688",
-    "title": "Catimore: Jurnal Pengabdian Kepada Masyarakat",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15688",
-    "website": "http://jurnal.catimoredansahabat.my.id/index.php/ojs",
-    "issn_p": "29625254",
-    "issn_e": "29626870",
-    "subject_area": null,
-    "sinta_level": "S5",
-    "scopus_indexed": false,
-    "garuda_indexed": true
-  },
-  {
-    "id": "15689",
-    "title": "JR : Jurnal Responsive Teknik Informatika",
-    "profile_url": "https://sinta.kemdiktisaintek.go.idhttps://sinta.kemdiktisaintek.go.id/journals/profile/15689",
-    "website": "https://ojs3.lppm-uis.org/index.php/JR",
-    "issn_p": "0",
-    "issn_e": "26147602",
     "subject_area": null,
     "sinta_level": "S5",
     "scopus_indexed": false,
